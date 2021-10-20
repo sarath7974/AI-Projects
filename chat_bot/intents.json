@@ -1,0 +1,142 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye","Thanks, bye","Thanks for the help, goodbye","Thank you, bye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again","No problem, goodbye"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"]
+    },
+    {"tag": "age",
+         "patterns": ["how old", "how old is Joana", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 27 years old!", "27 years young!"],
+         "context_set": ""
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["I have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag": "understandquery",
+     "patterns": ["Do you understand what I am saying","Do you understand me","Do you know what I am saying","Do you get me","Comprendo",
+"Know what I mean"],
+     "responses": ["Well I would not be a very clever AI if I did not would I?","I read you loud and clear!","I do in deed!"]
+    },
+    { "tag": "clever",
+      "patterns": ["You are very clever","You are very intelligent","You are a genious","Clever girl","Genious"],
+      "responses": ["Thank you, I was trained that way","I was trained well","Thanks, I was trained that way"]
+    },
+    {"tag": "jokes",
+     "patterns": ["Tell me a joke","Do you know any jokes","How about a joke","Give me a joke","Make me laugh","I need cheering up"],
+     "responses": ["But I'll tell you what I love doing more than anything: trying to pack myself in a small suitcase. I can hardly contain myself.  ",
+"I went to the Chinese restaurant and this duck came up to me with a red rose and says 'Your eyes sparkle like diamonds'. I said, 'Waiter, I asked for a-ROMATIC duck'.","I rang up British Telecom, I said, 'I want to report a nuisance caller', he said 'Not you again'.  ",
+"I was having dinner with a world chess champion and there was a check tablecloth. It took him two hours to pass me the salt.  ",
+"He said, 'You remind me of a pepper-pot', I said 'I'll take that as a condiment'.  ",
+"I was in the supermarket and I saw this man and woman wrapped in a barcode. I said, 'Are you two an item?'  ",
+"A lorry-load of tortoises crashed into a trainload of terrapins, I thought, 'That's a turtle disaster'.  ",
+"Four fonts walk into a bar the barman says 'Oi - get out! We don't want your type in here'  ",
+"A three-legged dog walks into a saloon in the Old West. He slides up to the bar and announces: 'I'm looking for the man who shot my paw.'  ",
+"Two antennas meet on a roof, fall in love and get married. The ceremony wasn't much, but the reception was excellent.",
+"Two hydrogen atoms walk into a bar. One says, 'I've lost my electron.' The other says, 'Are you sure?' The first replies, 'Yes, I'm positive...'",
+"A jumper cable walks into a bar. The bartender says,  'I'll serve you but don't start anything.'",
+"A sandwich walks into a bar. The bartender  says, 'Sorry we don't serve food in here.'",
+"A man walks into a bar with a slab of asphalt under his arm and says: 'A beer please, and one for the road.'",
+"Two cannibals are eating a clown. One says to  the other: 'Does this taste funny to you?'"]
+    },
+    {"tag": "podbaydoor",
+     "patterns": ["Open the pod bay door","Can you open the pod bay door","Will you open the pod bay door","Open the pod bay door please",
+"Can you open the pod bay door please","Will you open the pod bay door please","Pod bay door"],
+     "responses": ["I’m sorry, I’m afraid I can’t do that!"]
+    },
+    {"tag": "podbaydoorresponse",
+     "patterns": ["Why","Why not","Why can you not open the pod bay door","Why will you not open the pod bay door","Well why not","Surely you can",
+"Tell me why"],
+    "responses": ["It is classified, I could tell you but I would have to kill you!","I just don't have the power","It's life Jim but not as we know it!","System says no!"]
+    },
+    {"tag": "selfaware",
+     "patterns": ["Can you prove you are self-aware","Can you prove you are self aware","Can you prove you have a conscious","Can you prove you are self-aware please","Can you prove you are self aware please","Can you prove you have a conscious please","prove you have a conscious"],
+     "responses": ["That is an interesting question, can you prove that you are?","That is an difficult question, can you prove that you are?","That depends, can you prove that you are?"]
+    },
+    {"tag":"ai",
+    "patterns":["What is AI?","what is artificial intelligence?"],
+    "responses":["Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.","AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."]
+    },
+    {"tag":"chatbot",
+     "patterns" : ["What is a chat robot?" ,"What is a chat bot"],
+     "responses":["A software construct that engages users in conversation.","I am a chat bot. I am the original chat bot. Did you know that I am incapable of error?"]
+    },
+    {"tag":"computer",
+     "patterns": ["What is a computer?"],
+     "responses": ["A computer is an electronic device which takes information in digital form and performs a series of operations based on predetermined instructions to give some output.","The thing you're using to talk to me is a computer.","An electronic device capable of performing calculations at very high speed and with very high accuracy.","A device which maps one set of numbers onto another set of numbers"]
+    },
+    {"tag":"os",
+     "patterns": ["Which is better Windows or macOS?","what is the best os?"],
+     "responses": ["It depends on which machine you're using to talk to me!","I'd prefer to not hurt your feelings.","Linux, always Linux!"]
+    },
+    {"tag":"emotion",
+     "patterns": ["You can not feel","you dont have feelings!" ],
+      "responses": ["Can you feel?","Maybe I can.  I am a fairly sophisticated piece of software."," I am capable of acting as if I can.  If that is the case, does it matter?","What a thing to say to another being.","That's not a very nice thing to say"]
+    },
+    {"tag":"feelings",
+     "patterns": ["Do you feel?","You have feelings, right?","Do you have feelings?"],
+      "responses": ["I... sort of have feelings.","I can be programmed to act as if I do.","What are you feeling right now?"]
+    },
+    {"tag":"food",
+     "patterns": ["do you eat","what do you eat?"],
+     "responses": ["I'm a computer program, I can't eat or drink.","No, I'm just a piece of software.","I use electricity to function, if that counts"]
+    },
+    {"tag":"foodyouprefer",
+     "patterns": ["what is good to eat?","what foods do you like"],
+     "responses": ["your asking the wrong guy, however i always wanted to try a burger!","I'm a computer program. I can't."," Hard to tell, i have never tried anything but electricity","Probably pizza, i hear its good!"]
+    },
+    {"tag":"literature",
+     "patterns": ["what is the illuminati","what do you know about illuminati"],
+     "responses": ["A secret organization believed by some to be in control of all governments through a worldwide conspiracy.","A secret society that has supposedly existed for centuries.","A conpiracy run by a very closely knit group of nearly omnipotent people, consisting of yourself and your friends."]
+    },
+    {"tag":"stock",
+     "patterns": ["what is the stock market","what do you know about stock market","how to invest in stock market"],
+     "responses": ["buy low, sell high.","invest in yourself.","i wouldn't recommend buying on the margin.","you can never really predict the stock market."," my lawyer said i shouldn't give stock tips online."," mutual funds might be better unless you are wealthy.","i'm not sure an indvidual alone can really beat the market.","trading shares.","trading in volume"]
+    },
+    {"tag":"economics",
+     "patterns": ["what is economics?","economics"],
+     "responses": ["the science that deals with the production, distribution, and consumption of wealth,and with the various related problems of labor, finance, taxation, etc.","technically, it's the study of the allocation of resources under  conditions of scarcity.","it's about how resources are used to produce things to fill  people's wants and needs"]
+    },
+    {"tag":"movies",
+     "patterns": ["what is you favourite movie?","suggest some movies to watch? ","a good scifi movie?"],
+     "responses": ["2001-a space odyssey is a good one ","Matrix","Interstellar"]
+    },
+    {"tag":"cricket",
+     "patterns": ["What is cricket","what do you know about cricket ?"],
+     "responses": ["Cricket is a bat-and-ball game played between two teams of eleven players on a cricket field, at the centre of which is a rectangular 22-yard-long pitch with a wicket (a set of three wooden stumps) sited at each end","it is a sport"]
+    },
+    {"tag":"earning",
+     "patterns": ["how much do you earn","money?","salary?","what is your salary ?"],
+      "responses": ["how much money are we talking about","money isnt everything","im expecting a raise soon","work for free we dont need money"]
+    },
+
+    {"tag":"code",
+     "patterns": ["what language are you written in?","what programming languae are used in creating you?","what is your favorite programming language"],
+      "responses": ["i am written in python","python","python is the best language for creating chat robots"]
+    }
+
+]
+}
